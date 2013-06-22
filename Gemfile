@@ -15,6 +15,10 @@ group :development, :test do
   #gem 'childprocess', '0.3.6'
  end
 
+group :development do
+  gem 'annotate', '2.5.0'
+ end
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
